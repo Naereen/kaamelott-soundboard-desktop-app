@@ -12,7 +12,7 @@
 ----
 
 ## Télécharger l'application bureau ?
-[![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
+[![Juste 59 Mo](https://badge-size.herokuapp.com/Naereen/kaamelott-soundboard-desktop-app/release/strapdown.min.js)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/release/kaamelott-soundboard-linux-x64.zip)
 
 1. [Ce gros fichier]() contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
 2. Téléchargez le, extrayez l'archive quelque part,
