@@ -29,14 +29,14 @@ install_node:
 
 install_bower:
 	bower install
-	mv ./bower_components ./js/
+	mv -vf ./bower_components ./js/
 
 
 # Installer for the app
 install_app:
 	cp -vf ./img/ks.jpg ~/.local/share/applications/kaamelott-soundboard.jpg
 	cp -rvf ./kaamelott-soundboard-linux-x64 ~/.local/share/
-	ln -s ~/.local/share/kaamelott-soundboard-linux-x64/kaamelott-soundboard ~/.local/bin/
+	ln -fs ~/.local/share/kaamelott-soundboard-linux-x64/kaamelott-soundboard ~/.local/bin/
 
 validate_desktop_app:
 	desktop-file-validate Kaamelott-Soundboard.desktop
