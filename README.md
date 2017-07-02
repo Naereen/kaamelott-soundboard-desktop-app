@@ -18,6 +18,31 @@
 3. puis `make test` pour tester,
 4. et si ça fonctionne, faites `make install_app`, puis `make test_app` et si ça marche, faites `make register_app` pour l'ajouter à votre bureau.
 
+## Démonstrations
+Si vous vous êtes pas emmêlés les pinceaux comme des tanches pendant l'installation, vous devriez pouvoir faire comme moi :
+
+### Lancement depuis un terminal
+![demo1](./screenshots/demo_1.png)
+Normal.
+
+### Partage des sons
+![demo2](./screenshots/demo_2.png)
+Le lien utilisé pour le partage est celui [du site web](http://kaamelott-soundboard.2ec0b4.fr/), comme ça vos potes à Rome ou en Aquitaine peuvent écouter les mêmes sons que vous. « *Ça vous coupe le sifflet ça non ?* »
+
+### Lancement le menu d'application
+![demo5](./screenshots/demo_5.png)
+Si le fichier [.desktop](Kaamelott-Soundboard.desktop) a été bien installé, l'application est disponible dans votre menu système.
+
+### J'ai même mis un raccourcis dans ma barre d'application
+![demo4](./screenshots/demo_4.png)
+[*« Super, bonjour la pédagogie »*](http://kaamelott-soundboard.2ec0b4.fr/#son/bonjour_la_pedagogie)
+
+### L'application peut être grande, ou petite, ou re-grande derrière
+![demo3](./screenshots/demo_3.png)
+
+### Bref, voilà
+> « [Putain il est fort ce con !](http://kaamelott-soundboard.2ec0b4.fr/#son/putain_il_est_fort_ce_con) » me souffle-t-on.
+
 ## Sur GNU/Linux seulement !!
 - **Attention** : cette application n'a été testé que sur GNU/Linux (Ubuntu 17.04) mais ça devrait presque aussi bien marcher sur Mac OS X (changer les chemins et le nom de l'application), et probablement sur Windows.
 - Mais ça ne m'intéresse pas. Essayez vous même !
