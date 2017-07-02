@@ -22,6 +22,10 @@ test_app:
 
 
 # Installers for dependencies
+install_node_npm:
+	sudo apt install nodejs npm
+	sudo npm install -g electron electron-packager
+
 install_deps:	install_bower install_node
 
 install_node:

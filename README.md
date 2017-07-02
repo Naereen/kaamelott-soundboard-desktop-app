@@ -11,36 +11,56 @@
 
 ----
 
+## Télécharger l'application bureau ?
+[![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
+
+1. [Ce gros fichier]() contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
+2. Téléchargez le, extrayez l'archive quelque part,
+3. Allez dans le dossier correspondant, puis faites `make install_app`, `make test_app` et enfin `make register_app`.
+4. Tester l'application en la cherchant dans le menu d'application de votre bureau. Et voilà.
+
 ## Construire l'application bureau
 
-1. Vous aurez besoin de node et npm installés, puis installer `electron` et `electron-packager`,
-2. ensuite, suivez le `Makefile` et faites `make package` pour construire l'application bureau,
+> Presque rien à faire, grâce au gentil fichier [`Makefile`](Makefile).
+
+1. Vous aurez besoin de node et npm installés, puis installez `electron` et `electron-packager`. Si besoin, `sudo make install_node_npm` peut aider, mais là j'garantis rien.
+2. Ensuite, suivez le `Makefile` et faites `make package` pour construire l'application bureau,
 3. puis `make test` pour tester,
-4. et si ça fonctionne, faites `make install_app`, puis `make test_app` et si ça marche, faites `make register_app` pour l'ajouter à votre bureau.
+4. et si ça fonctionne, faites `make install_app`, puis `make test_app` et si ça marche, faites `sudo make register_app` pour l'ajouter à votre bureau,
+5. et enfin si tout marche, nettoyer tout comme un grand avec `make clean_all`.
+6. *« Merci, de rien, au revoir m'sieur dame... »*
 
 ## Démonstrations
 Si vous vous êtes pas emmêlés les pinceaux comme des tanches pendant l'installation, vous devriez pouvoir faire comme moi :
 
 ### Lancement depuis un terminal
 ![demo1](./screenshots/demo_1.png)
+
 Normal.
 
 ### Partage des sons
+
 ![demo2](./screenshots/demo_2.png)
+
 Le lien utilisé pour le partage est celui [du site web](http://kaamelott-soundboard.2ec0b4.fr/), comme ça vos potes à Rome ou en Aquitaine peuvent écouter les mêmes sons que vous. « *Ça vous coupe le sifflet ça non ?* »
 
-### Lancement le menu d'application
+### Lancement via le menu d'application
+
 ![demo5](./screenshots/demo_5.png)
+
 Si le fichier [.desktop](Kaamelott-Soundboard.desktop) a été bien installé, l'application est disponible dans votre menu système.
 
-### J'ai même mis un raccourcis dans ma barre d'application
+### J'ai même mis un raccourcis dans ma barre d'application...
+
 ![demo4](./screenshots/demo_4.png)
+
 [*« Super, bonjour la pédagogie »*](http://kaamelott-soundboard.2ec0b4.fr/#son/bonjour_la_pedagogie)
 
-### L'application peut être grande, ou petite, ou re-grande derrière
+### L'application peut être grande, ou petite, ou re-grande derrière !
+
 ![demo3](./screenshots/demo_3.png)
 
-### Bref, voilà
+### Bref, voilà.
 > « [Putain il est fort ce con !](http://kaamelott-soundboard.2ec0b4.fr/#son/putain_il_est_fort_ce_con) » me souffle-t-on.
 
 ## Sur GNU/Linux seulement !!
@@ -74,5 +94,9 @@ Merci, de rien, au revoir m'sieur dame... ([@2ec0b4](https://github.com/2ec0b4/k
 
 ----
 
+## Crédit et licence ?
+
 > Crédit : [Antoine @2ec0b4](https://github.com/2ec0b4/kaamelott-soundboard/) pour l'application initiale.
 > Idée initiale : [Naereen](https://github.com/Naereen), dans [cette discussion](https://github.com/2ec0b4/kaamelott-soundboard/issues/56), et voir notamment [cette réponse](https://github.com/2ec0b4/kaamelott-soundboard/issues/56#issuecomment-312480886).
+
+> Licence : [Unlicense](http://unlicense.org). Parce que c'est pas trois gars en jupettes qui vont nous impressionner.
