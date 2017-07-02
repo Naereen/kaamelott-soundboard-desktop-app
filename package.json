@@ -32,17 +32,7 @@
     "gulp-uglify": "^1.5.3",
     "run-sequence": "^1.2.1",
     "syncy": "^1.0.2",
-    "electron": "^1.6.11",
-    "requirejs": "^2.2.0",
-    "requirejs-text": "^2.0.12",
-    "require-handlebars-plugin": "^1.0.0",
-    "require-css": "^0.1.8",
-    "backbone.marionette": "^2.4.6",
-    "backbone.radio": "^1.0.5",
-    "handlebars": "^4.0.5",
-    "jquery": "^2.2.4",
-    "ilyabirman-likely": "^2.1.0",
-    "underscore": "^1.8.3"
+    "electron": "^1.6.11"
   },
   "dependencies": {
     "requirejs": "^2.2.0",

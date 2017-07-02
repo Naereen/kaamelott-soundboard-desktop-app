@@ -67,7 +67,10 @@
         <div id="modal"></div>
 
         <!-- In Electron, this is the correct way to include jQuery -->
-        <script type="text/javascript" >window.$ = window.jQuery = require('js/bower_components/jquery/dist/jquery.min.js');</script>
+        <script type="text/javascript" src="js/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript">
+            window.$ = window.jQuery = require('js/bower_components/jquery/dist/jquery.min.js');
+        </script>
         <script type="text/javascript" src="js/bower_components/ilyabirman-likely/release/likely.js"></script>
         <script type="text/javascript" data-main="js/app/main" src="js/bower_components/requirejs/require.js"></script>
     </body>
