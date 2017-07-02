@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Kaamelott Soundbard
+Comment=Kaamelott Soundbard desktop app
+Exec=/home/lilian/.local/kaamelott-soundboard-linux-x64/kaamelott-soundboard
+Icon=/home/lilian/.local/share/applications/kaamelott-soundboard.jpg
+Terminal=false
+Type=Application
+InitialPreference=6
+TryExec=/home/lilian/.local/kaamelott-soundboard-linux-x64/kaamelott-soundboard
