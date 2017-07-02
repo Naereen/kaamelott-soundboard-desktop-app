@@ -12,12 +12,14 @@
 ----
 
 ## Télécharger l'application bureau ?
-[![Juste 59 Mo](https://badge-size.herokuapp.com/Naereen/kaamelott-soundboard-desktop-app/release/strapdown.min.js)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/release/kaamelott-soundboard-linux-x64.zip)
+[![Juste 59 Mo](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip)
 
-1. [Ce gros fichier]() contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
+1. [Ce gros fichier](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip) contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
 2. Téléchargez le, extrayez l'archive quelque part,
 3. Allez dans le dossier correspondant, puis faites `make install_app`, `make test_app` et enfin `make register_app`.
 4. Tester l'application en la cherchant dans le menu d'application de votre bureau. Et voilà.
+
+> Les versions suivantes, s'il y en a, seront [là](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases). [![Github all releases](https://img.shields.io/github/downloads/Naereen/kaamelott-soundboard-desktop-app/total.svg)](https://GitHub.com/Naereen/kaamelott-soundboard-desktop-app/releases/)
 
 ## Construire l'application bureau
 
@@ -99,4 +101,18 @@ Merci, de rien, au revoir m'sieur dame... ([@2ec0b4](https://github.com/2ec0b4/k
 > Crédit : [Antoine @2ec0b4](https://github.com/2ec0b4/kaamelott-soundboard/) pour l'application initiale.
 > Idée initiale : [Naereen](https://github.com/Naereen), dans [cette discussion](https://github.com/2ec0b4/kaamelott-soundboard/issues/56), et voir notamment [cette réponse](https://github.com/2ec0b4/kaamelott-soundboard/issues/56#issuecomment-312480886).
 
-> Licence : [Unlicense](http://unlicense.org). Parce que c'est pas trois gars en jupettes qui vont nous impressionner.
+> Licence : [Unlicense](http://unlicense.org). Parce que c'est pas trois gars en jupettes qui vont nous impressionner. [![GitHub license](https://img.shields.io/github/license/Naereen/kaamelott-soundboard-desktop-app.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/blob/master/LICENSE)
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/kaamelott-soundboard-desktop-app/graphs/commit-activity)
+[![Demandez moi n'importe quoi !](https://img.shields.io/badge/Demandez%20moi-n'%20importe%20quoi-1abc9c.svg)](https://GitHub.com/Naereen/ama.fr)
+[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/kaamelott-soundboard-desktop-app/README.md)](https://GitHub.com/Naereen/kaamelott-soundboard-desktop-app/)
+
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app)
+[![BADGINATOR](https://badginator.herokuapp.com/Naereen/kaamelott-soundboard-desktop-app.svg)](https://github.com/defunctzombie/badginator)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+
+[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
