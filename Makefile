@@ -10,6 +10,9 @@ all_and_clean: 	package test install clean_all
 package:	install_deps
 	electron-packager --overwrite ./
 
+package_all:	install_deps
+	electron-packager --all --overwrite ./
+
 # Tests
 localtest:	install_bower
 	npm start
@@ -32,8 +35,9 @@ install_node:
 	npm install
 
 install_bower:
+	-mv -vf ./js/bower_components /tmp/
 	bower install
-	mv -vf ./bower_components ./js/
+	-mv -vf ./bower_components ./js/
 
 
 # Installer for the app
