@@ -62,6 +62,9 @@ Si le fichier [.desktop](Kaamelott-Soundboard.desktop) a été bien installé, l
 
 ![demo3](./screenshots/demo_3.png)
 
+### Aussi sur Windows !
+![demo6](./screenshots/demo_6.png)
+
 ### Bref, voilà.
 > « [Putain il est fort ce con !](http://kaamelott-soundboard.2ec0b4.fr/#son/putain_il_est_fort_ce_con) » me souffle-t-on.
 
