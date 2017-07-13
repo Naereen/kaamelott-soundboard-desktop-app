@@ -11,15 +11,15 @@
 
 ----
 
-## Télécharger l'application bureau ?
-[![Juste 59 Mo](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip)
+## Télécharger l'application bureau pour GNU/Linux
+[![Juste 59 Mo sur GNU/Linux](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip)
 
 1. [Ce gros fichier](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip) contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
 2. Téléchargez le, extrayez l'archive quelque part,
 3. Allez dans le dossier correspondant, puis faites `make install_app`, `make test_app` et enfin `make register_app`.
 4. Tester l'application en la cherchant dans le menu d'application de votre bureau. Et voilà.
 
-> Les versions suivantes, s'il y en a, seront [là](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases). [![Github all releases](https://img.shields.io/github/downloads/Naereen/kaamelott-soundboard-desktop-app/total.svg)](https://GitHub.com/Naereen/kaamelott-soundboard-desktop-app/releases/)
+> Les versions suivantes, seront [là](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases). [![Github all releases](https://img.shields.io/github/downloads/Naereen/kaamelott-soundboard-desktop-app/total.svg)](https://GitHub.com/Naereen/kaamelott-soundboard-desktop-app/releases/)
 
 ## Construire l'application bureau
 
@@ -31,6 +31,7 @@
 4. et si ça fonctionne, faites `make install_app`, puis `make test_app` et si ça marche, faites `sudo make register_app` pour l'ajouter à votre bureau,
 5. et enfin si tout marche, nettoyer tout comme un grand avec `make clean_all`.
 6. *« Merci, de rien, au revoir m'sieur dame... »*
+7. Pour construire sur les autres plateformes, il faut faire `electron-packager --all --force .` à la place de `make package`.
 
 ## Démonstrations
 Si vous vous êtes pas emmêlés les pinceaux comme des tanches pendant l'installation, vous devriez pouvoir faire comme moi :
@@ -68,10 +69,11 @@ Si le fichier [.desktop](Kaamelott-Soundboard.desktop) a été bien installé, l
 ### Bref, voilà.
 > « [Putain il est fort ce con !](http://kaamelott-soundboard.2ec0b4.fr/#son/putain_il_est_fort_ce_con) » me souffle-t-on.
 
-## Sur GNU/Linux seulement !!
-- **Attention** : cette application n'a été testé que sur GNU/Linux (Ubuntu 17.04) mais ça devrait presque aussi bien marcher sur Mac OS X (changer les chemins et le nom de l'application), et probablement sur Windows.
-- Mais ça ne m'intéresse pas. Essayez vous même !
-- En plus, j'ai ni machine Windows, ni Mac, donc c'est un coup à passer pour des cons. Sans moi.
+## Autres plateformes ?
+- Cette application est testée et développée sous GNU/Linux (Ubuntu 17.04) mais elle marche aussi bien sur Mac OS X, et sur Windows.
+- Pour GNU/Linux, je vais essayer de faire de mon mieux pour que l'installation se passe bien. Par contre, giga flemme de faire un PPA pour Ubuntu ou de proposer des `.deb`/`.rpm` en téléchargement.
+- Pour Mac OS X, je serai incapable de tester moi-même mais on m'a raporté que l'application fonctionne bien pareil.
+- Pour Windows, je n'ai pas envie de faire de script d'installation, l'application fonctionne si elle reste dans un dossier local, donc aucune raison d'aller poluer votre dossier `C:\Program Files\` avec ça...
 
 ----
 
@@ -102,7 +104,7 @@ Merci, de rien, au revoir m'sieur dame... ([@2ec0b4](https://github.com/2ec0b4/k
 ## Crédit et licence ?
 
 > Crédit : [Antoine @2ec0b4](https://github.com/2ec0b4/kaamelott-soundboard/) pour l'application initiale.
-> Idée initiale : [Naereen](https://github.com/Naereen), dans [cette discussion](https://github.com/2ec0b4/kaamelott-soundboard/issues/56), et voir notamment [cette réponse](https://github.com/2ec0b4/kaamelott-soundboard/issues/56#issuecomment-312480886).
+> Idée de l'application bureau : initialement [Naereen](https://github.com/Naereen), dans [cette discussion](https://github.com/2ec0b4/kaamelott-soundboard/issues/56), et voir notamment [cette réponse](https://github.com/2ec0b4/kaamelott-soundboard/issues/56#issuecomment-312480886).
 
 > Licence : [Unlicense](http://unlicense.org). Parce que c'est pas trois gars en jupettes qui vont nous impressionner. [![GitHub license](https://img.shields.io/github/license/Naereen/kaamelott-soundboard-desktop-app.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/blob/master/LICENSE)
 
