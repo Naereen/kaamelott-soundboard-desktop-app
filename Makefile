@@ -13,6 +13,9 @@ package:	install_deps
 package_all:	install_deps
 	electron-packager --all --no-prune --overwrite ./
 
+zip_all:
+	./zipall.sh
+
 # Tests
 localtest:	install_bower
 	npm start
@@ -56,11 +59,14 @@ install:	package install_app register_app
 
 
 # Cleaners
-clean_all:	clean clean_bower
+clean_all:	clean clean_bower clean_zip
 clean:	clean_node clean_app clean_bower
 
 clean_node:
 	rm -rfv ./node_modules
+
+clean_zip:
+	rm -rfv ./zips/*.zip
 
 clean_app:
 	rm -rfv ./kaamelott-soundboard-linux-x64
