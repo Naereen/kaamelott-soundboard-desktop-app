@@ -1,7 +1,7 @@
 {
-  "name": "kaamelott-soundboard",
-  "version": "1.0.0",
-  "description": "Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi.",
+  "name": "kaamelott-soundboard-desktop-app",
+  "version": "1.0.1",
+  "description": "Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi. Application bureau multi-plateforme.",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,18 +9,18 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/2ec0b4/kaamelott-soundboard"
+    "url": "git://github.com/Naereen/kaamelott-soundboard-desktop-app"
   },
   "keywords": [
     "kaamelott",
     "soundboard"
   ],
-  "author": "Antoine @2ec0b4",
+  "author": "Antoine @ and Naereen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/2ec0b4/kaamelott-soundboard/issues"
+    "url": "https://github.com/Naereen/kaamelott-soundboard-desktop-app/issues"
   },
-  "homepage": "https://github.com/2ec0b4/kaamelott-soundboard#readme",
+  "homepage": "https://github.com/Naereen/kaamelott-soundboard-desktop-app",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
@@ -32,7 +32,8 @@
     "gulp-uglify": "^1.5.3",
     "run-sequence": "^1.2.1",
     "syncy": "^1.0.2",
-    "electron": "^1.6.11"
+    "electron": "^1.6.11",
+    "about-window": "^1.7.1"
   },
   "dependencies": {
     "requirejs": "^2.2.0",
