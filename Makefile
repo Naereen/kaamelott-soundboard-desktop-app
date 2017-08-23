@@ -8,10 +8,10 @@ all: 	package test install clean_app
 all_and_clean: 	package test install clean_all
 
 package:	install_deps
-	electron-packager --overwrite ./
+	electron-packager --no-prune --overwrite ./
 
 package_all:	install_deps
-	electron-packager --all --overwrite ./
+	electron-packager --all --no-prune --overwrite ./
 
 # Tests
 localtest:	install_bower
