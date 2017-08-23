@@ -18,10 +18,10 @@ localtest:	install_bower
 	npm start
 
 test:
-	./kaamelott-soundboard-linux-x64/kaamelott-soundboard
+	./kaamelott-soundboard-desktop-app-linux-x64/kaamelott-soundboard-desktop-app
 
 test_app:
-	kaamelott-soundboard
+	kaamelott-soundboard-desktop-app
 
 
 # Installers for dependencies
@@ -43,8 +43,8 @@ install_bower:
 # Installer for the app
 install_app:
 	cp -vf ./img/ks.jpg ~/.local/share/applications/kaamelott-soundboard.jpg
-	cp -rvf ./kaamelott-soundboard-linux-x64 ~/.local/share/
-	ln -fs ~/.local/share/kaamelott-soundboard-linux-x64/kaamelott-soundboard ~/.local/bin/
+	cp -rvf ./kaamelott-soundboard-desktop-app-linux-x64 ~/.local/share/
+	ln -fs ~/.local/share/kaamelott-soundboard-desktop-app-linux-x64/kaamelott-soundboard-desktop-app ~/.local/bin/
 
 validate_desktop_app:
 	desktop-file-validate Kaamelott-Soundboard.desktop
@@ -64,6 +64,7 @@ clean_node:
 
 clean_app:
 	rm -rfv ./kaamelott-soundboard-linux-x64
+	rm -rfv ./kaamelott-soundboard-desktop-app-linux-x64
 
 clean_bower:
 	rm -rfv ./js/bower_components

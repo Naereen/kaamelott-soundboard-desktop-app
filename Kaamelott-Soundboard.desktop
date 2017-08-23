@@ -3,9 +3,9 @@
 [Desktop Entry]
 Name=Kaamelott Soundbard
 Comment=Kaamelott Soundbard desktop app
-Exec=/home/lilian/.local/kaamelott-soundboard-linux-x64/kaamelott-soundboard
+Exec=/home/lilian/.local/kaamelott-soundboard-desktop-app-linux-x64/kaamelott-soundboard-desktop-app
 Icon=/home/lilian/.local/share/applications/kaamelott-soundboard.jpg
 Terminal=false
 Type=Application
 InitialPreference=6
-TryExec=/home/lilian/.local/kaamelott-soundboard-linux-x64/kaamelott-soundboard
+TryExec=/home/lilian/.local/kaamelott-soundboard-desktop-app-linux-x64/kaamelott-soundboard-desktop-app
