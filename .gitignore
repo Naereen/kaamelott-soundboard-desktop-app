@@ -4,4 +4,5 @@ node_modules/
 js/node_modules/
 kaamelott-soundboard-*
 kaamelott-soundboard-desktop-app-*
+zips/
 *.zip
