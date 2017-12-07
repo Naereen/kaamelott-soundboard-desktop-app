@@ -12,9 +12,9 @@
 ----
 
 ## Télécharger l'application bureau pour GNU/Linux
-[![Juste 59 Mo sur GNU/Linux](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip)
+[![Juste 59 Mo sur GNU/Linux](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.4/kaamelott-soundboard-linux-x64.zip)
 
-1. [Ce gros fichier](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.1-alpha/kaamelott-soundboard-linux-x64.zip) contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
+1. [Ce gros fichier](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.4/kaamelott-soundboard-linux-x64.zip) contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
 2. Téléchargez le, extrayez l'archive quelque part,
 3. Allez dans le dossier correspondant, puis faites `make install_app`, `make test_app` et enfin `make register_app`.
 4. Tester l'application en la cherchant dans le menu d'application de votre bureau. Et voilà.
@@ -73,13 +73,13 @@ Si le fichier [.desktop](Kaamelott-Soundboard.desktop) a été bien installé, l
 - Cette application est testée et développée sous GNU/Linux (Ubuntu 17.04) mais elle marche aussi bien sur Mac OS X, et sur Windows.
 - Pour GNU/Linux, je vais essayer de faire de mon mieux pour que l'installation se passe bien. Par contre, giga flemme de faire un PPA pour Ubuntu ou de proposer des `.deb`/`.rpm` en téléchargement.
 - Pour Mac OS X, je serai incapable de tester moi-même mais on m'a raporté que l'application fonctionne bien pareil.
-- Pour Windows, je n'ai pas envie de faire de script d'installation, l'application fonctionne si elle reste dans un dossier local, donc aucune raison d'aller poluer votre dossier `C:\Program Files\` avec ça...
+- Pour Windows, je n'ai pas envie de faire de script d'installation, l'application fonctionne si elle reste dans un dossier local, donc aucune raison d'aller polluer votre dossier `C:\Program Files\` avec ça...
 
 ----
 
 ## Lancer le projet
 
-Pour faire fonctionner le projet sur votre machine, vous devrez tout d'abord, depuis la racine, exécuter la commande `bower install` puis accéder au fichier `index.html` via le serveur Web de votre choix (Apache pour moi, quand je ne suis pas sioux et que je ne m'y prends pas comme un commanche).
+Pour faire fonctionner le projet sur votre machine, vous devrez tout d'abord, depuis la racine, exécuter la commande `bower install` puis accéder au fichier `index.html` via le serveur Web de votre choix (Apache pour moi, quand je ne suis pas sioux et que je ne m'y prends pas comme un comanche).
 
 ## Contribuer
 
