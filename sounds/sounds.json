@@ -31,19 +31,19 @@
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, 01 - Le Fléau de Dieu",
+        "episode": "Livre I, 05 - Le Fléau de Dieu",
         "file": "cest_pas_jo_le_rigolo.mp3",
         "title": "Ah c'est sûr qu'c'est pas Jo l'Rigolo, hein"
     },
     {
         "character": "Attila",
-        "episode": "Livre I, 01 - Le Fléau de Dieu",
+        "episode": "Livre I, 05 - Le Fléau de Dieu",
         "file": "pourquoi_pas1.mp3",
         "title": "POURQUOI PAS ?"
     },
     {
         "character": "Attila",
-        "episode": "Livre I, 01 - Le Fléau de Dieu",
+        "episode": "Livre I, 05 - Le Fléau de Dieu",
         "file": "pourquoi_pas2.mp3",
         "title": "Pourquoi pas !?"
     },
@@ -1344,7 +1344,7 @@
         "title": "Putain faut vraiment qu'on s'grouille !"
     },
     {
-        "character": "Arthur",
+        "character": "Père Blaise",
         "episode": "Livre I, 46 - Le Code de Chevalerie",
         "file": "quies.mp3",
         "title": "Quies… (ancien Celte)"
@@ -1611,7 +1611,7 @@
         "character": "Arthur",
         "episode": "Livre I, 90 - La Pâte d'Amande",
         "file": "ah_ah_mais_vous_etes_marteau_et_regardez_ca_ca_pisse_le_sang.mp3",
-        "title": "Ah ! Ah ! Mais vous êtes marteau ?! Et regardez ça, ça pisse le sang !"
+        "title": "Ah ! Ah, mais vous êtes marteau ?! Et regardez ça, ça pisse le sang !"
     },
     {
         "character": "Yvain",
@@ -1750,5 +1750,185 @@
         "episode": "Livre I, 99 - La Retraite",
         "file": "qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3",
         "title": "Qu'est-ce que vous voulez savoir ? Allez, vous vous magnez l'tronc mainenant ! Vous m'dites c'que vous voulez et vous faites un effort pour que j'pane au moins le sens de votre phrase ! Je commence à en avoir plein le dos et d'choper des maux de tête à répétition à force de jamais piger un broc de c'que vous racontez ! Alors vous reprenez d'puis l'début, avec une tournure simple et directe ou vous ramassez une tarte, c'est clair ça ?!"
+    },
+    {
+        "character": "Belt",
+        "episode": "Livre VI, 07 - Arturus Rex",
+        "file": "regardez_moi_cette_meule.mp3",
+        "title": "Regardez-moi cette meule ! J'ai affiné cette saloperie de frometon pendant des mois et des mois, résultat, il est dégueulasse. Pourquoi ? Parce que je suis nul en fromage ! Merde !"
+    },
+    {
+        "character": "Belt",
+        "episode": "Livre VI, 07 - Arturus Rex",
+        "file": "regardez_moi_ce_petit_navet.mp3",
+        "title": "Regardez moi ce petit navet ! A quelle heure on doit se lever nous le matin ? On nous en colle jusque là, ras la gueule ras la gueule ras la gueule ! Et un jour qu'est ce qu'il va se passer ? Patatrac !"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre VI, 07 - Arturus Rex",
+        "file": "c_est_maintenant_quil_faut_se_secouer.mp3",
+        "title": "Mais justement c'est maintenant qu'il faut se secouer les rognons, sinon ça part tout à volo."
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre VI, 08 - Lacrimosa",
+        "file": "tsoin-tsoin.mp3",
+        "title": "Nan... mais pas vous ! Vous, vous pouvez rester tsoin-tsoin comme d'habitude."
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre VI, 08 - Lacrimosa",
+        "file": "petit_ton_decale.mp3",
+        "title": "J'aime assez ce petit ton décalé..."
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre VI, 08 - Lacrimosa",
+        "file": "cuit_les_boules.mp3",
+        "title": "Ça m'a littéralement cuit les boules !"
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre V, 02 - Miserere Noire",
+        "file": "tres_en_colere.mp3",
+        "title": "Misa brevis et spiritus maxima. Ça veut rien dire, mais je suis très en colère contre moi-même."
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre V, 14 - Vae Soli",
+        "file": "pas_envie_de_participer.mp3",
+        "title": "Ah, mais c’est pas possible, ça ! J’ai pas envie, de participer ! À rien ! C’est pas mon genre, de participer ! Jamais je participerai ! À part à vos obsèques, bande de cons !"
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre V, 01 - Les Repentants",
+        "file": "sur_de_son_coup.mp3",
+        "title": "Quand on veut être sûr de son coup, Seigneur Dagonet… on plante des navets. On ne pratique pas le putsch."
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
+        "file": "parfaitement_antipathique.mp3",
+        "title": "Et vous êtes parfaitement antipathique. D'ailleurs j'vous aime pas moi non plus, comme quoi, voyez ?"
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
+        "file": "demi_journee_vous_attend.mp3",
+        "title": "C'est à dire qu'ça fait un peu une demi-journée qu'on vous attend, mais ça fait rien"
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
+        "file": "ici_chez_les_salopards.mp3",
+        "title": "Vous pouvez parler en toute franchise : pour faire court, vous êtes ici chez les salopards, hein, c'est admis. On n'a pas des idées bien jojo, et on a pas peur de le dire. On fomente, on rénégate, on laisse libre cours à notre fantaisie"
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
+        "file": "peigne_zizi.mp3",
+        "title": "Non, pour nous, c'est un peigne zizi, voilà"
+    },
+	{
+        "character": "Galessin",
+        "episode": "Livre I, 51 - Enluminures",
+        "file": "parle_de_travers_cureton.mp3",
+        "title": "Moi il me semble qu'il nous parle bien de travers, le cureton, aujourd'hui !"
+    },
+	{
+        "character": "Galessin",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
+        "file": "oui_ben_non.mp3",
+        "title": "Oui... Ben non !"
+    },
+	{
+        "character": "Anna",
+        "episode": "Livre V, 32 - L'Odyssée d'Arthur",
+        "file": "signe_de_vouloir_discuter.mp3",
+        "title": "Excusez-moi, est-ce qu'à un seul moment j'aurais, par mégarde, donné le moindre signe de vouloir discuter avec vous ?"
+    },
+	{
+        "character": "Léodagan",
+        "episode": "Livre I, 02 - Les Tartes aux Myrtilles",
+        "file": "difference_concrete_avec_des_briques.mp3",
+        "title": "Sans vouloir la ramener, la seule différence concrète avec des briques, c'est que vous appelez ça des tartes !"
+    },
+	{
+        "character": "Merlin",
+        "episode": "Livre I, 15 - Les Défis de Merlin",
+        "file": "quest_ce_qui_est_petit_et_marron.mp3",
+        "title": "Qu'est ce qui est petit et marron ? Un marron"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 47 - Le Complot",
+        "file": "tropgentil.mp3",
+        "title": "Vous savez ce que c'est mon problème ? Trop gentil !"
+    },
+	{
+        "character": "Kadoc",
+        "episode": "Livre V, 42 - Le Destitué",
+        "file": "compote.mp3",
+        "title": "Faut pas respirer de la compote, ça fait tousser"
+    },
+	{
+        "character": "Kadoc",
+        "episode": "Livre V, 33 - Domi Nostrae",
+        "file": "casuffit.mp3",
+        "title": "Ça suffit, ça suffit, ça suffit !!"
+    },
+	{
+        "character": "Perceval",
+        "episode": "Livre III, 24 - Les Suppléants",
+        "file": "incandescent.mp3",
+        "title": "Incandescente, c'est : qui peut accaparer des objets sans ressurgir sur autrui"
+    },
+	{
+        "character": "Arthur",
+        "episode": "Livre II, 57 - Unagi II",
+        "file": "inattendu.mp3",
+        "title": "C'est systématiquement débile, mais c'est toujours inattendu !"
+    },
+	{
+        "character": "Bohort",
+        "episode": "Livre III, 03 - L'Aveu de Bohort",
+        "file": "catastrophe.mp3",
+        "title": "C'est une catastrophe !"
+    },
+	{
+        "character": "Bohort",
+        "episode": "Livre II, 14 - Les Classes de Bohort",
+        "file": "malademental.mp3",
+        "title": "Vous êtes un grand malade mental !"
+    },
+	{
+        "character": "Yvain",
+        "episode": "Livre V, 40 - Les Pionniers",
+        "file": "ebaubir.mp3",
+        "title": "Femme ! Cesse donc de nous ébaubir les oreilles ! Ohlala, il suffit !"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre I, 01 - Heat",
+        "file": "je_connais_que_le_cri.mp3",
+        "title": "Ah non, moi j'connais que le cri. Piu piu piu papapapapapa"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 01 - Heat",
+        "file": "moi_non_plus_je_vois_rien.mp3",
+        "title": "Ah ben tourné vers là-bas c'est sûr, moi non plus je vois rien !"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 34 - Les Novices",
+        "file": "on_est_pas_sorti_du_sable.mp3",
+        "title": "Eh ben, on est pas sorti du sable !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 3 - La Table de Breccan",
+        "file": "buffet_a_vaisselle.mp3",
+        "title": "Encore une chance qu'on se soit pas fait construire un buffet à vaisselle, hein !"
     }
 ]

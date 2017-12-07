@@ -1,4 +1,7 @@
-bower_components
-node_modules
-kaamelott-soundboard-linux-x64
+bower_components/
+js/bower_components/
+node_modules/
+js/node_modules/
+kaamelott-soundboard-*
+kaamelott-soundboard-desktop-app-*
 *.zip
