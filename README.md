@@ -12,9 +12,9 @@
 ----
 
 ## Télécharger l'application bureau pour GNU/Linux
-[![Juste 59 Mo sur GNU/Linux](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.4/kaamelott-soundboard-linux-x64.zip)
+[![Juste 59 Mo sur GNU/Linux](https://img.shields.io/badge/size-59%20Mo-green.svg)](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.4/kaamelott-soundboard-desktop-app-linux-x64.zip)
 
-1. [Ce gros fichier](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.4/kaamelott-soundboard-linux-x64.zip) contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
+1. [Ce gros fichier](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/download/v0.4/kaamelott-soundboard-desktop-app-linux-x64.zip) contient le dossier à installer, [l'icône](img/ks.jpg), le fichier [.desktop](Kaamelott-Soundboard.desktop) et le [`Makefile`](Makefile).
 2. Téléchargez le, extrayez l'archive quelque part,
 3. Allez dans le dossier correspondant, puis faites `make install_app`, `make test_app` et enfin `make register_app`.
 4. Tester l'application en la cherchant dans le menu d'application de votre bureau. Et voilà.
