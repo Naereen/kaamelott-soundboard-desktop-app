@@ -1,6 +1,6 @@
 {
   "name": "kaamelott-soundboard-desktop-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi. Application bureau multi-plateforme.",
   "scripts": {
     "start": "electron .",

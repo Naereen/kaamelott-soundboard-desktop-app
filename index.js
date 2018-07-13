@@ -1,4 +1,3 @@
-// https://youtu.be/-Lu7ztlgx48?t=588
 console.log("Starting my kaamelott-soundboard Electron application...");
 
 const electron = require('electron');
@@ -33,10 +32,10 @@ app.on('ready', () => {
     });
 
     mainWindow.webContents.on('new-window', (event, url) => {
-      // stop Electron from opening another BrowserWindow
-      event.preventDefault()
-      // open the url in the default system browser
-      shell.openExternal(url)
+        // stop Electron from opening another BrowserWindow
+        event.preventDefault()
+        // open the url in the default system browser
+        shell.openExternal(url)
     });
     mainWindow.webContents.on('will-navigate', (event, url) => {
         // stop Electron from opening another BrowserWindow
@@ -79,11 +78,11 @@ app.on('ready', () => {
                     label: "À propos de cette application bureau",
                     click: () => openAboutWindow({
                                 icon_path: `${__dirname}/img/ks.jpg`,
-                                copyright: "Copyright © 2017 Lilian Besson (Naereen) and Antoine (2ec0b4) and collaborators",
+                                copyright: "Copyright © 2018 Lilian Besson (Naereen) and Antoine (2ec0b4) and collaborators",
                                 homepage: "https://github.com/Naereen/kaamelott-soundboard-desktop-app/",
                                 license: "No License",
                                 bug_report_url: "https://github.com/Naereen/kaamelott-soundboard-desktop-app/issues/new",
-                                description: "💻 📢 Application bureau sur Ubuntu, Windows et Mac OS X pour la soundboard de Kaamelott 🎶.\n« Alors, c'est classe ou c'est pas classe ? Ou c'est classe ? »\n« Putain il est fort ce con ! » me souffle-t-on.\nCette application est testée et développée sous GNU/Linux (Ubuntu 17.04) mais elle marche aussi bien sur Mac OS X, et sur Windows.",
+                                description: "💻 📢 Application bureau sur Ubuntu, Windows et Mac OS X pour la soundboard de Kaamelott 🎶.\n« Alors, c'est classe ou c'est pas classe ? Ou c'est classe ? »\n« Putain il est fort ce con ! » me souffle-t-on.\nCette application est testée et développée sous GNU/Linux (Ubuntu 18.04) mais elle marche aussi bien sur Mac OS X, et sur Windows.",
                                 adjust_window_size: true
                             })
                 },
@@ -91,7 +90,7 @@ app.on('ready', () => {
                     label: "À propos de l'application web",
                     click: () => openAboutWindow({
                                 icon_path: `${__dirname}/img/ks.jpg`,
-                                copyright: "Copyright © 2016-17 Antoine (2ec0b4) and collaborators",
+                                copyright: "Copyright © 2016-18 Antoine (2ec0b4) and collaborators",
                                 homepage: "https://github.com/2ec0b4/kaamelott-soundboard/",
                                 license: "No License",
                                 bug_report_url: "https://github.com/2ec0b4/kaamelott-soundboard//issues/new",

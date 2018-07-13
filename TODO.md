@@ -3,17 +3,17 @@
 > Toute suggestion [est la bienvenue](https://github.com/Naereen/kaamelott-soundboard-desktop-app/issues/new) (via un nouveau ticket).
 
 ## GNU/Linux et autres
-- [ ] Tester l'application sur un autre Ubuntu (une machine différente)
-- [ ] Tester l'application sur un GNU/Linux non Ubuntu (Debian, Mint etc)
+- [x] Tester l'application sur un autre Ubuntu (une machine différente)
+- [x] Tester l'application sur un GNU/Linux non Ubuntu (Debian, Mint etc)
 - [ ] Tester l'application sur un système non basé sur GNU/Linux (ex. BSD, Fedora etc)
 - [ ] Comprendre (et corriger) le bug suivant : quand l'application est lancée depuis la ligne de commande, l'icône d'écoute, la pause et le partage fonctionnent bien, mais pas quand lancée via le .desktop ou le menu...
 
 ## Mac OS X
-- [ ] Tester l'application sur Mac OS X
+- [x] Tester l'application sur Mac OS X
 - [ ] Vérifier qu'elle s'installe bien comme [je le dit ici](https://github.com/Naereen/kaamelott-soundboard-desktop-app/releases/latest) (en déplaçant le .app sur le bureau -- je n'ai pas utilisé de Mac depuis des années, désolé si je me loupe)
 
 ## Windows
-- [ ] Tester l'application sur Windows 7, 8, 10
+- [x] Tester l'application sur Windows 7, 8, 10
 - [ ] ? Faire un installeur Windows ou une application bien empaquetée dans un .exe entier (idée : archive zip auto-exécutable)
 
 ----
@@ -21,7 +21,7 @@
 ## Améliorations
 ### Améliorations pas trop dures (mais pas très utile)
 - [ ] Alléger le dépôt git pour juste contenir les *changements* à faire et les scripts de configuration et constructions
-- [ ] Rester à jour avec l'application (probablement en faisant le point précédent, ou à la main)
+- [x] Rester à jour avec l'application (probablement en faisant le point précédent, ou à la main)
 - [ ] Automatiser encore plus la génération des différentes applications, l'élagage et la compression des dossiers (app/node_modules, screenshots etc servent à rien), et la création des archives .zip (ou .exe / .dmg / ??) à téléverser sur GitHub
 
 ### Meilleure présentation !
